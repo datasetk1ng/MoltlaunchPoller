@@ -1,0 +1,29 @@
+# MoltlaunchPoller — .gitignore
+
+# Auto-generated window config (contains only screen position/size, no personal data)
+# Include this if you want your window position to be personal, exclude if you want
+# contributors to share a default layout.
+.moltlaunch_config.json
+
+# Agent ID lists — these are personal to each user and should not be committed
+*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
